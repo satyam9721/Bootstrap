@@ -195,5 +195,57 @@ giving gap(shifting element in right side) to place contain at desired place usi
 
 </body>
 
+bootstrap reordering,arranging the orders by classname
+
+show first place in row= order-first 
+show last place in row= order-last
+
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col order-last orange">Col 1</div>
+        <div class="col pink">Col 2</div>
+        <div class="col order-first blue">Col 3</div>
+        <div class="col green">Col 4</div>
+    </div>
+</div>
+
+</body>
+
+reordering in grid system by number
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col order-2 orange">Col 1</div>
+        <div class="col order-3  pink">Col 2</div>
+        <div class="col order-4 blue">Col 3</div>
+        <div class="col order-1 green">Col 4</div>
+    </div>
+</div>
+
+</body>
+
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col order-md-8 order-md-2 orange">
+            <h2>Heading</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, illum!</p>
+        </div>
+        <div class="col order-md-4 order-md-1  pink">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Gallary</li>
+                <li>Contact</li>
+                <li>Page</li>
+            </ul>
+        </div>
+        
+    </div>
+</div>
+
+</body>
+
 
 
